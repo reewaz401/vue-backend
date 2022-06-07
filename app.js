@@ -10,7 +10,7 @@ const corsOption = {
     "http://localhost:3000",
     "http://localhost:8080",
     "https://629fc922d27987030581065d--curious-bienenstitch-692d8b.netlify.app/",
-    "curious-bienenstitch-692d8b.netlify.app/",
+    "https://curious-bienenstitch-692d8b.netlify.app/",
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
