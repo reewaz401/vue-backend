@@ -20,7 +20,9 @@ app.use(cors(corsOption));
 app.use(bodyParser.json());
 app.use(express.json());
 const product = require("./routes/product");
-
+app.get("/", (req, res) => {
+  res.send("Working !");
+});
 app.use("/product", product);
 
 app.use(function (err, req, res, next) {
