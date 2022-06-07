@@ -10,11 +10,12 @@ exports.get_allUserProducts = async (req, res) => {
 
 exports.post_boughtProducts = async (req, res) => {
   let newDate = moment(moment().toDate()).format("YYYY-MM-DD");
-  let productList;
+  let productList = [];
   let reqBody = req.body;
   reqBody.forEach((product) => {
+    console.log(product);
     productList.push({
-      product_id: product.product_id,
+      product_id: product.id,
       product_name: product.product_name,
       category: product.category,
       price: product.price,

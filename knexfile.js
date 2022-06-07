@@ -4,10 +4,10 @@ module.exports = {
   development: {
     client: "mysql2",
     connection: {
-      host: "localhost",
-      database: "shop_db",
-      user: "root",
-      password: "first1974",
+      host: "eu-cdbr-west-02.cleardb.net",
+      database: "heroku_b8916169e33f970",
+      user: "bb3332c51f14ef",
+      password: "d7182929",
     },
     pool: {
       min: 2,
@@ -25,10 +25,10 @@ module.exports = {
   production: {
     client: "mysql2",
     connection: {
-      host: "localhost",
-      database: "shop_db",
-      user: "root",
-      password: "first1974",
+      host: "eu-cdbr-west-02.cleardb.net",
+      database: "heroku_b8916169e33f970",
+      user: "bb3332c51f14ef",
+      password: "d7182929",
     },
     pool: {
       min: 2,
